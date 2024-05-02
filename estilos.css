@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+
+    font-family: sans-serif;
+}
+
+
+header {
+    width: 100vw;
+    min-height: 70px;
+    background-color: #1B414E;
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color:  #337992;
+}
+
+.Titulo-header {
+
+    align-content: center;
+   
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.contenedor{
+    display: flex;
+    height: 100vh;
+}
+
+.datos{
+    align-content: center;  
+    width: 100%;
+    
+}
+
+.datos-personales {
+    width: 400px;
+}
+
+
+.foto-mia img{
+
+    width: 400px;
+    height: 500px;
+    
+    border-radius: 5%;
+
+}
+
+.foto-mia {
+    
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+footer {
+
+    display: flex;
+    
+    background-color: #1B414E;
+    
+    height: 80px;
+
+    justify-content: center;
+    
+}
+
+.imagen-footer {
+
+    align-content: center;
+}
+
+.imagen-footer img {
+    
+    align-content: center;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    
+
+}
+
+@media (max-width: 911px) {
+    
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    header {
+        width: 100%;
+        
+    }
+    
+    main{
+    width: 100%;
+    height: 100%;
+}
+   
+
+    .Titulo-header h1 {
+        
+        text-align: center;
+    }
+    
+    
+    .contenedor{
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .datos{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .datos-personales {
+        width: auto;
+        padding: 50px 20px;
+    }
+    
+    .foto-mia img{
+        width: auto;
+        padding: 20px;
+        border-radius: 15%;
+    
+    }
+    
+    .foto-mia {
+
+        align-content: center;
+        text-align: center;
+        max-width: 100%;
+        height: 100%;
+    }
+    
+ 
+    .imagen-footer img {
+        
+        align-content: center;
+    
+    }
+
+}
+
+
